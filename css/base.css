@@ -1,0 +1,18 @@
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza-medio: #74787A;
+    --cinza-claro: #B2B2B2;
+    --fonte-principal: 'Roboto', sans-serif;
+   
+
+}
+
+body{
+    font-family: var(--fonte-principal);    
+
+}
+
+h1, h2 {
+    width: 900;
+}

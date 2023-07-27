@@ -1,0 +1,155 @@
+/* Estilos para o tamanho 360px (e telas menores) */
+
+.banner__cabecalho{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1rem;
+    height: 157px ;
+    background-image: url("../img/bannerMobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    
+}
+
+.logo-banner{
+    padding: 1em;
+    width: auto;
+}
+
+.container_link{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;    
+    color: var(--branco);
+    text-align: right;         
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.item1 {
+    grid-row: 2; 
+    padding-top: .5em;
+    
+}
+
+.item2{
+    display: none;
+    
+}
+
+.item3{
+    opacity: 80%;
+}
+
+/* tamanho 428px */
+@media (min-width: 428px) {
+   
+ .logo-banner{
+    padding: 1.5em;
+    width: 50vw;
+ }
+
+    
+}
+
+
+/* tablet 500px */
+@media  (min-width: 429px) and (max-width: 744px) {
+   
+   .banner__cabecalho{
+    height: 40vh ;
+    background-image: url("../img/banner-desktop.svg");
+    column-gap: 2rem;
+    
+
+   }
+
+   .logo-banner{
+    width: 35vw;
+    padding: 1em 0 0 1.5em;
+   }
+
+   .container_link{    
+    grid-template-rows: 30px 70px 1fr;    
+}
+   
+    .item1 {
+        grid-row: 2; 
+        padding: .5em;        
+    }    
+    .item3{
+        grid-row: 1; 
+        opacity: 80%;
+        padding-top: .8em;
+    }
+       
+   }
+
+   /* Tablet grande e Desktop */
+
+   @media (min-width: 745px) and (max-width: 1728px) {
+
+    .banner__cabecalho{
+        height: 60vh ;
+        background-image: url("../img/banner-desktop.svg");
+        column-gap: 5em;      
+    
+       }
+
+    .logo-banner{
+        width: 35vw;
+        padding: 2.5em 0 0 2.5em;
+    }
+
+       .container_link{    
+        grid-template-rows: 65px 135px 1fr;    
+
+    }
+
+    .item1 {
+        grid-row: 2; 
+        padding: .5em;      
+        font-size: 2em;  
+    }    
+    .item3{
+        grid-row: 1; 
+        opacity: 80%;
+        padding-top: .8em;
+        font-size: 1.5em;
+    }
+       
+   }
+
+
+   @media (min-width: 1728px) {
+
+    .banner__cabecalho{
+        height: 85vh ;
+        background-image: url("../img/banner-desktop.svg");
+        column-gap: 7em;      
+    
+       }
+
+    .logo-banner{
+        width: 35vw;
+        padding: 2.5em 0 0 5em;
+    }
+
+       .container_link{    
+        grid-template-rows: 80px 165px 1fr;    
+
+    }
+
+    .item1 {
+        grid-row: 2; 
+        padding: .5em;      
+        font-size: 3em;  
+    }    
+    .item3{
+        grid-row: 1; 
+        opacity: 80%;
+        padding-top: 2em;
+        font-size: 2em;
+    }
+       
+   }
+

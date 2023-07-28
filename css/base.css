@@ -20,8 +20,7 @@ body{
     "footer footer footer"
     ;  
 
-    grid-template-columns: 1fr;
-    
+    grid-template-columns: 1fr;   
     
 }
 
@@ -42,20 +41,16 @@ body{
 
  @media  (min-width:1440px){
 
-    .o-header{
-      
-        height: 370px;
-            
+    .o-header{      
+        height: 370px;            
     }
 
 }
 
 @media  (min-width:1728px){
 
-    .o-header{
-      
-        height: 440px;
-            
+    .o-header{      
+        height: 440px;            
     }
 
 }
@@ -64,17 +59,21 @@ body{
 
     .o-header{
         width: auto;
-        height: 60vh;
-            
+        height: 60vh;            
     }
 
 }
 
+/* Principal */
+
 .o-principal{
-    grid-area: main;
-     
+    grid-area: main;  
+    
     
 }
+
+
+/* Rodapé */
 
 .o-rodape{
     grid-area: footer;

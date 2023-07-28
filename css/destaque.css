@@ -1,0 +1,29 @@
+.o-principal{
+    display: grid;
+    text-align: center;
+   
+    
+    
+}
+
+.container_texto-principal{
+    display: block;
+    justify-content: space-between;
+    margin: .8em 2em 1em 2em  ;
+    
+
+}
+
+.titulo_destaque{
+    text-align: start ;
+    font-size: 2.30rem;
+    font-weight: 900;
+}
+
+.paragrafo_destaque{
+    text-align: start;
+    font-weight: 500;
+    font-size: 7vw;
+    color: var(--cinza-medio);
+    padding: .5em 0;
+}

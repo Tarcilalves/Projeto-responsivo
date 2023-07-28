@@ -1,4 +1,6 @@
 @import url("../css/cabecalho.css");
+@import url(../css/destaque.css); 
+
 :root{
     --branco: #FFFFFF;
     --preto: #000000;
@@ -10,10 +12,42 @@
 }
 
 body{
-    font-family: var(--fonte-principal);    
+    font-family: var(--fonte-principal);  
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main"
+    "footer footer footer"
+    ;  
 
+    grid-template-columns: 1fr;
+    
+    
 }
 
-h1, h2 {
-    width: 900;
+.o-header{
+    grid-area: header;
+    height: 150px;
+    width: 300px;
 }
+
+ @media (min-width: 429px ) and (max-width:1440px){
+
+    .o-header{
+        grid-area: header;
+        height: 13vh;
+            
+    }
+}
+
+.o-principal{
+    grid-area: main;
+     
+    
+}
+
+.o-rodape{
+    grid-area: footer;
+}
+
+

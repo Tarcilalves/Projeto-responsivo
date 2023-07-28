@@ -27,17 +27,47 @@ body{
 
 .o-header{
     grid-area: header;
-    height: 150px;
-    width: 300px;
+    height: 390px;
+    width: auto;
 }
 
- @media (min-width: 429px ) and (max-width:1440px){
+ @media (min-width:744px){
 
     .o-header{
-        grid-area: header;
-        height: 13vh;
+       
+        height: 230px;
             
     }
+ }
+
+ @media  (min-width:1440px){
+
+    .o-header{
+      
+        height: 370px;
+            
+    }
+
+}
+
+@media  (min-width:1728px){
+
+    .o-header{
+      
+        height: 440px;
+            
+    }
+
+}
+
+@media  (min-width:1815px){
+
+    .o-header{
+        width: auto;
+        height: 60vh;
+            
+    }
+
 }
 
 .o-principal{

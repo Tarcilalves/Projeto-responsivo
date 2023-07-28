@@ -9,8 +9,8 @@
 }
 
 .logo-banner{
-    padding: 1em 0 0 1em;
-    width: 65%;
+    padding: 2em 0 0 2em;
+    width: 150%;
 }
 
 .container_link {
@@ -18,14 +18,14 @@
     grid-template-rows: repeat(2, auto) 1fr ;    
     color: var(--branco);
     text-align: right;     
-    padding-right: .5em;
+    padding-right: 2em;
    
     
 }
 
 .item1{
     font-weight: 600;
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     padding-top: 6em;
     
 }
@@ -34,10 +34,10 @@
     font-weight: 400;
     padding-top: 2em;
     opacity: 80%;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
-@media (min-width: 429px ) and (max-width:744px) {
+@media (min-width: 744px ){
 
     .o-header{         
         background-image: url("../img/banner-desktop.svg");       
@@ -45,40 +45,63 @@
     }
 
     .logo-banner{
-        padding: .8em 0 0 1em;
-        width: 45%;
-        
+        padding: 1.5em 0 0 2em;
+        width: 110%;        
     }
 
     .container_link{
-        grid-template-rows: repeat(2, auto) 1fr ;           
-        padding-right: 1em;
-        
-       
-        
-        
+               
+        padding-right: 3em;        
     }
+
     .item1{
-        padding-top: 2em;
-        font-size: 1vw; 
+        padding-top: 8em;
+        font-size: 1.25vw; 
     }
   
     .item2{
-        padding-top: 1em;
+        padding-top: 4em;
         font-size: .5vw;
-        font-weight: 400;
-        opacity: 80%;
+       
         
     }
 
 }
 
-@media (min-width: 744px ) and (max-width:1928px){
-    
-    .o-header{
-        background-image: url("../img/banner-desktop.svg");
+@media (min-width: 1740px ){
+
+    .logo-banner{
+        padding: 3em 0 0 4em;
+        width: 200%;
         
     }
 
+    .container_link{
+        padding-right: 6em;
+    }
+
+    .item1{
+        padding-top: 5em;
+        font-size: 1.5vw; 
+    }
+  
+    .item2{
+        padding-top: 2em;
+        font-size: 1vw;
+       
+    }
+}
+
+@media  (min-width:1815px){
+
+    .logo-banner{
+        padding: 12em 0 0 15em;
+        width: 30vw;
+        
+    }
+
+    .container_link{
+        padding-right: 25em;
+    }
 
 }

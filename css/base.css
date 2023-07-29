@@ -1,11 +1,13 @@
 @import url("../css/cabecalho.css");
-@import url(../css/destaque.css); 
+@import url("../css/destaque.css"); 
+@import url("../css/rodape.css");
 
 :root{
     --branco: #FFFFFF;
     --preto: #000000;
     --cinza-medio: #74787A;
     --cinza-claro: #B2B2B2;
+    --laranja: #FC4C02;
     --fonte-principal: 'Roboto', sans-serif;
    
 
@@ -13,6 +15,7 @@
 
 body{
     font-family: var(--fonte-principal);  
+    font-size: 14px;
     display: grid;
     grid-template-areas: 
     "header header header"
@@ -20,21 +23,21 @@ body{
     "footer footer footer"
     ;  
 
-    grid-template-columns: 1fr;   
+    grid-template-columns:  1fr  ;   
     
 }
 
 .o-header{
     grid-area: header;
-    height: 390px;
-    width: auto;
+    height: 105vh;
+    
 }
 
  @media (min-width:744px){
 
     .o-header{
        
-        height: 230px;
+        height: 65vh;
             
     }
  }
@@ -42,7 +45,7 @@ body{
  @media  (min-width:1440px){
 
     .o-header{      
-        height: 370px;            
+        height: 48vh;            
     }
 
 }
@@ -50,7 +53,7 @@ body{
 @media  (min-width:1728px){
 
     .o-header{      
-        height: 440px;            
+        height: 38vh;            
     }
 
 }
@@ -58,7 +61,7 @@ body{
 @media  (min-width:1815px){
 
     .o-header{
-        width: auto;
+        
         height: 60vh;            
     }
 
@@ -67,7 +70,7 @@ body{
 /* Principal */
 
 .o-principal{
-    grid-area: main;  
+    grid-area: main;      
     
     
 }

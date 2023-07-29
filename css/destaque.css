@@ -1,29 +1,179 @@
 .o-principal{
     display: grid;
-    text-align: center;
-   
-    
+    text-align: center;    
     
 }
+
 
 .container_texto-principal{
     display: block;
     justify-content: space-between;
-    margin: .8em 2em 1em 2em  ;
-    
+    margin: 3rem 2em  8rem 2rem ;
+    text-align: start; 
 
 }
+
 
 .titulo_destaque{
-    text-align: start ;
-    font-size: 2.30rem;
+    
+    font-size: 4.5rem;
     font-weight: 900;
+    line-height: 4rem;
+    padding-bottom: 2rem;  
+    
 }
 
+
+
 .paragrafo_destaque{
-    text-align: start;
+    
     font-weight: 500;
-    font-size: 7vw;
+    font-size: 2rem;
     color: var(--cinza-medio);
-    padding: .5em 0;
+    padding: 1.15rem 0 4rem 0;
+    line-height: 3rem;
 }
+
+
+.linha-destaque{
+    
+    padding: 1rem 0 ;
+
+}
+
+.imagem-conteudo{
+
+    width: 90%;
+
+}
+
+.container_texto-conteudo{
+
+    display: block;
+    justify-content: space-between;
+    margin: 1rem 4rem  10rem 3.5rem ;
+    text-align: start; 
+}
+
+
+.titulo_conteudo{
+    
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 5rem;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.texto_menor{
+
+    font-size: 1.5rem;
+    color: var(--cinza-claro);
+    padding: 2rem 0;
+    text-align: start;
+}
+
+
+
+@media (min-width: 744px) {
+   
+    .o-principal{
+
+        display: grid;
+    }
+
+    .imagem-palestrante{
+        margin: 0 2rem;
+    }
+    
+    .container_texto-conteudo{    
+        margin: 1rem 2rem  10rem 2rem ;        
+    }
+   
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conteudo_item {
+        flex: 1;
+        max-width: 50%;
+        
+    }
+
+    .titulo_conteudo{
+
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 2rem;
+        padding-bottom: 2rem;  
+    }
+
+    .linha-conteudo{
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .container_texto-principal{        
+        margin: 2rem 2em  6rem 2rem ;          
+    }
+
+    .paragrafo_destaque{
+        padding: 1rem 0;
+    }
+
+    .linha-conteudo{
+        width: 50%;
+    }  
+    
+}
+
+@media (min-width: 1728px) {
+
+
+    .imagem-palestrante{
+        width: auto;
+    }
+
+    .container_texto-principal{        
+        margin: 2rem 8rem  6rem 8rem ;          
+    }
+
+    .conteudo{
+        margin: 0 6rem;
+    }    
+}
+
+@media (min-width: 1815px) {
+    
+    .imagem-palestrante{
+        width: 100%;
+    }
+
+    .conteudo{
+        margin: 0 4rem;
+    }    
+
+    .container_texto-conteudo{    
+        margin: 1rem 3rem  10rem 3rem ;        
+    }
+
+    .titulo_destaque{
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+
+    .paragrafo_destaque{
+        font-size: 3rem;
+    }
+
+    .titulo_conteudo{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+

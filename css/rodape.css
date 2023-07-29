@@ -1,0 +1,44 @@
+.o-rodape{
+    display: grid;
+    grid-template-columns:  1fr  ; 
+    grid-gap: 1em;
+    text-align: center;  
+    margin: 6vh 0;   
+
+}
+
+.container-imagem_rodape{
+    background-color: var(--laranja);
+    padding: 4rem 0;
+}
+
+.logo-rodape{
+    
+    background-color: var(--laranja);
+    width: 200vw;
+}
+
+
+
+.paragrafo_rodape{
+
+    margin-top: 4rem;  
+
+}
+
+.texto-rodape{
+
+    font-size: 1.2rem;
+    padding: .2rem 0;
+
+}
+
+@media (min-width: 744px) {
+    
+    .logo-rodape{
+        width: 40%;
+    }
+
+    
+ 
+}

@@ -1,44 +1,47 @@
-.o-rodape{
-    display: grid;
-    grid-template-columns:  1fr  ; 
-    grid-gap: 1em;
-    text-align: center;  
-    margin: 6vh 0;   
 
+.container-rodape{
+    display: block;
+    text-align: center;
 }
 
 .container-imagem_rodape{
     background-color: var(--laranja);
-    padding: 4rem 0;
 }
 
 .logo-rodape{
-    
-    background-color: var(--laranja);
-    width: 200vw;
+    width: 50vw;
+        
 }
-
-
 
 .paragrafo_rodape{
-
-    margin-top: 4rem;  
-
+    font-size: 2vw;    
+    font-weight: 400;
+    padding: 4vw 0;
+    line-height: 2.5vw; 
+    color: var(--cinza-medio);
 }
 
-.texto-rodape{
-
-    font-size: 1.2rem;
-    padding: .2rem 0;
-
+.botao{
+   text-transform: uppercase;
+   font-weight: 600;
+   padding-top: 2vw;
 }
 
-@media (min-width: 744px) {
-    
-    .logo-rodape{
-        width: 40%;
+
+.link-botao:hover {
+    background-color: #e9a97e; 
+}
+
+@media (min-width: 744px){
+    .paragrafo_rodape{
+        font-size: 1.2vw;
+        line-height: 1.5vw;  
     }
 
-    
- 
+    .botao{
+        padding-top: 1vw;
+    }
+
+  
+
 }

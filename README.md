@@ -63,7 +63,7 @@ https://github.com/Tarcilalves/SiteMandarin/assets/107896645/0236b4f7-ca68-4dce-
 # Acesso ao projeto
 
 
-[Clique aqui para visitar o site](https://tarcilalves.github.io/AluraBook/)
+[Clique aqui para visitar o site](https://tarcilalves.github.io/SiteMandarin/)
 
 
 # Tecnologias utilizadas

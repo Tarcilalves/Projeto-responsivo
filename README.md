@@ -2,7 +2,9 @@
 
 > Implementar a responsividade dentro de uma página web considerando o acesso em diferentes
 dispositivos.
-> 
+
+![resposividade-projeto](https://github.com/user-attachments/assets/559c09f3-ce6a-4fe3-b7f3-1bef5fbf8994)
+
 
 ## Infraestrutura
 
@@ -35,6 +37,8 @@ Para facilitar a folha de estilo responsividade.css, foi criada para receber o e
 Para manter seu arquivo HTML mais limpo e organizado, usei a abordagem  `@import` no arquivo `responsividade.css`, onde estou essencialmente combinando vários arquivos CSS em um único ponto de entrada. Onde as vantagens de Usar `@import` no CSS são: M**anutenção Facilitada, Organização, Redução de Código no HTML.**
 # Resultado: Responsividade do site
 
-![resposividade-projeto.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b2e122d5-f197-466c-82de-6b0f36d8cfda/c67ba1a7-e289-4043-bfd5-8f2a2bb649d4/resposividade-projeto.png)
+https://github.com/user-attachments/assets/e5c342cf-96dd-425a-bc89-4a115c7eee13
 
-[projeto-resposividade ‐ Feito com o Clipchamp.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/b2e122d5-f197-466c-82de-6b0f36d8cfda/a3803fc8-febb-4eb0-bb99-e4c164618834/projeto-resposividade__Feito_com_o_Clipchamp.mp4)
+
+
+

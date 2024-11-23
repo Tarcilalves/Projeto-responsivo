@@ -6,74 +6,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
-    <title>Mandarin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <title>Desenvolvimento Responsivo</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    
+    <link rel="stylesheet" href="css/responsividade.css">    
     
 </head>
+
 <body>
+<!-- Cabeçalho --> 
     <header> 
-        <div class="o-header container_cabecalho">       
-            <img src="img/logo-banner.svg" alt="Manda Trends" class="logo-banner" >
-            <a href="#" title="Saiba mais" class="texto-cabecalho">        
-                <div class="container_paragrafo" >
-                    <p class="paragrafo_cabecalho">NRF2020</p>
-                    <p class="paragrafo_cabecalho">kOBE Bryant e</p>
-                    <p class="paragrafo_cabecalho">WhatsApp Payment</p>
-                </div>
-                <div>
-                    <p class=" texto-edicao">edição 6</p>
-                </div>               
-            </a>
+        <div class="o-header container_cabecalho"> 
+            <img src="img/banner.svg" alt="" class="logo-banner" id="banner" > 
         </div>
     </header>
+
+<!-- Principal -->
     <main>
         <div class="o-principal container-principal">
-            <figure class="destaques">
-                <img src="./img/palestrantes.webp" alt="três mulheres palestrantes do evento NRF 2020 " class="imagem-palestrante">
+            <!-- >>>>> Este Cards <<<<<<  -->
+             <!-- Card 1 -->
+             <figure class="card_principal">
+                <img src="./img/card_direitos-humanos.svg" alt="Laqueadura" class="card_imagem">
                 <div class="container_texto-principal">
-                    <figcaption class="titulo_destaque" >NRF 2020: conheça os top 5 assuntos do evento.</figcaption>
-                    <p class="paragrafo_destaque">O maior evento sobre varejo do mundo mostrando as tendências, oportunidades e inovações para o setor.</p>
-                    <p class="texto_menor">Fonte: CMO ADOBE</p>
-                    <img src="./img/linha_destaque.svg" class="linha-destaque" alt>
+                    <figcaption class="titulo_destaque" >DIREITOS HUMANOS</figcaption>
+                    <p class="paragrafo_destaque">
+                        Câmera  aprova laqueadura voluntária, mudanças na lei facilitam o acesso a laqueadura e vasectomia.</p>
                 </div>
             </figure>
-            <section class="conteudo" >
-                <figure class="conteudo_item">
-                    <img src="./img/NBA.svg" alt="jogador de basquete Jordam da NBA - com a hastag MAKEKOKETHELOGO " class="imagem-conteudo" >
-                    <div class="container_texto-conteudo">
-                        <figcaption class="titulo_conteudo" >Petição para colocar Kobe Bryant no logo da NBA.</figcaption>               
-                        <p class="texto_menor">Fonte: Daily Mai</p>
-                        <img src="./img/linha_nba.svg" class="linha-conteudo" alt>
-                    </div>
-                </figure>
-                <figure class="conteudo_item">
-                    <img src="./img/WhatsApp.svg" alt="logo do WhatsApp " class="imagem-conteudo" >
-                    <div class="container_texto-conteudo">
-                        <figcaption class="titulo_conteudo" >WhatsApp terá função de pagamentos em 2020.</figcaption>               
-                        <p class="texto_menor">Fonte: Proxxima</p>
-                        <img src="./img/linha_whatsapp.svg" class="linha-conteudo" alt>
-                    </div> 
-                </figure>
-            </section>
+             <!-- Card 2 -->
+             <figure class="card_principal">
+                <img src="./img/barbarapenha.svg" alt="Barbara Penha" class="card_imagem">
+                <div class="container_texto-principal">
+                    <figcaption class="titulo_destaque" >INST. BARBARA PENNA</figcaption>
+                    <p class="paragrafo_destaque">
+                        o instituto leva o nome da vítima de violência doméstica.</p>
+                </div>
+            </figure>
+             
+             <!-- Card 3 -->
+             <figure class="card_principal">
+                <img src="./img/card_tomojuntas.svg" alt="Tomo Juntas" class="card_imagem tomo-juntas">
+                <div class="container_texto-principal">
+                    <figcaption class="titulo_destaque" >ONG TOMO JUNTAS</figcaption>
+                    <p class="paragrafo_destaque">
+                        Organização feminista composta por mulheres profissionais que atuam voluntariamente na assistência multidisciplinar a mulheres em situação de violência e que possui voluntárias em diversas regiões do Brasil.</p>
+                </div>
+            </figure>
+             
+             <!-- Card 4 -->
+             <figure class="card_principal">
+                <img src="./img/card_ongclaodgirls.svg" alt="Laqueadura" class="card_imagem">
+                <div class="container_texto-principal">
+                    <figcaption class="titulo_destaque" >MEETUPS CLOUD GIRLS</figcaption>
+                    <p class="paragrafo_destaque">
+                        As organizadoras do Cloud Girls, são mulheres que dedicam o seu tempo voluntariamente para apoiarem outras mulheres.</p>
+                </div>
+            </figure>
         </div>
     </main>
     <footer>
         <div class="o-rodape container-rodape">
             <div class="container-imagem_rodape">
-                <img src="./img/logo-rodape.svg" alt="Mandarin | We design for shopper" class="logo-rodape" lang="en" >
+                <img src="./img/LOGO.svg" alt="logo" class="logo-rodape" >
             </div>
             <div class="paragrafo_rodape">
                 <p class="texto-rodape">
-                    Copyright ® Mandarin. Todos os direitos reservados.
-                </p>
-                <p class="texto-rodape">
-                    Caso não deseje mais receber nossos e-mails,
-                </p>
-                <p class="botao" >
-                    <a href="#"  class="link-botao" >por favor  clique aqui. </a>
-                </p>
+                    Copyright ® Tarcila Cardoso Alves|2024. Todos os direitos reservados.
+                </p>                
+            </div>            
+            
             </div>
         </div>
     </footer>

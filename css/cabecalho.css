@@ -1,46 +1,11 @@
-.container_cabecalho{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .logo-banner{
-   width: 32vw;
-    padding: 0 0 10vw 4vw;
+   width: 100%;
+   margin-bottom: .5rem;
+   
    
 }
 
-.container_paragrafo{
-    text-align: right;
-    
-    
-}
-
-.texto-cabecalho{    
-    color: var(--branco);
-    padding: 6vw 4vw 0 0;
-    font-size: 3vw;
-    
-   
-}
-
-.texto-edicao{
-    text-align: right;
-    padding-top: .25rem;
-    font-size: 1vw;
-    
-    opacity: 80%
-    
-}
-
- @media (min-width: 744px ){
-
-    
-    .texto-edicao{
-        padding-top: 2vw;        
-    }
-
-  
-
-
-}
+ 
 

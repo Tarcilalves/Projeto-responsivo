@@ -1,47 +1,24 @@
 
 .container-rodape{
-    display: block;
     text-align: center;
+    background-color: var(--cinza-claro);
+    margin-top: 1rem;
+    
 }
 
-.container-imagem_rodape{
-    background-color: var(--laranja);
+.container-imagem_rodape{    
+    padding: 3rem 0 2rem 0;
 }
 
 .logo-rodape{
-    width: 50vw;
-        
+    width: 20rem;        
 }
 
 .paragrafo_rodape{
-    font-size: 2vw;    
-    font-weight: 400;
-    padding: 4vw 0;
-    line-height: 3vw; 
+    font-size: 2vw;      
     color: var(--cinza-medio);
 }
 
-.botao{
-   text-transform: uppercase;
-   font-weight: 600;
-   padding-top: 2vw;
-}
 
 
-.link-botao:hover {
-    background-color: #e9a97e; 
-}
 
-@media (min-width: 744px){
-    .paragrafo_rodape{
-        font-size: 1.2vw;
-        line-height: 1.5vw;  
-    }
-
-    .botao{
-        padding-top: 1vw;
-    }
-
-  
-
-}

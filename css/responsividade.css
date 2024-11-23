@@ -1,0 +1,133 @@
+@import url("../css/cabecalho.css");
+@import url("../css/principal.css"); 
+@import url("../css/rodape.css");
+
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza-medio: #74787A;
+    --cinza-claro: #E6EFE9;
+    --roxo: #70398C;
+    --fonte-principal: 'Roboto', sans-serif;   
+
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main"
+    "footer footer footer"
+    ;  
+
+    grid-template-columns: 1fr;
+    font-family: var(--fonte-principal);  
+    font-size: 8px; 
+}
+
+.o-header{
+    grid-area: header;   
+   
+}
+
+ 
+/* Principal */
+
+.o-principal{
+    grid-area: main;
+}
+
+/* Rodapé */
+
+.o-rodape{
+    grid-area: footer;
+   
+}
+
+/* Media Queries */
+
+/* Para telas pequenas */
+
+
+
+@media (min-width: 280px) and (max-width: 767px){
+    
+    .container-principal {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+        
+    } 
+    
+    .logo-banner{
+        
+        object-fit: cover;
+        width:100%;
+        height: 400px;
+          
+        
+        
+     }
+}
+
+
+    
+    
+@media (min-width: 780px) and (max-width: 1279px){
+        .container-principal {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+        }
+ 
+    
+    }
+
+/* Tables */
+
+    @media (min-width: 1280px) and (max-width: 1400px){
+        .container-principal {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+        }
+   
+
+    /* Cards do Principal */
+
+.card_principal{    
+    display: flex;
+    justify-content: center;
+    max-width: 100%; 
+    background-color: var(--cinza-claro);
+    margin: 1rem;
+    
+}
+
+.card_imagem {
+    object-fit: cover;
+    width: 50%; 
+    max-height: 120%;
+}
+
+.titulo_destaque{
+    
+    
+    text-align:left;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    
+
+}
+
+
+.paragrafo_destaque{
+    font-size: 1.25;
+    text-align:left;
+}
+
+
+
+}
+
